@@ -25,18 +25,4 @@ Aplicação web para controle de entrada, saída e solicitação de roupas esté
 
 ---
 
-## ⚙️ Como rodar localmente
 
-```bash
-git clone https://github.com/lucasvrmoreira/SICRO
-cd SICRO
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-# ou
-venv\Scripts\activate     # Windows
-
-pip install -r requirements.txt
-
-# Configure seu arquivo .env com a DATABASE_URL
-
-python app.py
